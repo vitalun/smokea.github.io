@@ -30,7 +30,8 @@
     <meta name="twitter:site" content="@vitalun">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="icon" type="image/png"
+        href="https://cdn.shopify.com/s/files/1/0668/5992/5683/files/satellite.png?v=1718693057">
 
     <style>
         body {
@@ -121,42 +122,109 @@
             background-color: #c62828;
         }
 
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(-20px);
-            }
-
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
         }
 
-        @keyframes fadeInHeader {
-            from {
-                opacity: 0;
-            }
-
-            to {
-                opacity: 1;
-            }
+        footer a {
+            color: #e53935;
+            text-decoration: none;
         }
 
-        @keyframes fadeInHeaderText {
-            from {
-                opacity: 0;
-                transform: translateY(-20px);
-            }
-
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
+        footer a:hover {
+            text-decoration: underline;
         }
 
-        .fadeIn {
-            animation: fadeIn 1s ease-out;
+        .partner-sites {
+            list-style: none;
+            padding: 0;
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .partner-sites li {
+            margin: 0 10px;
+        }
+
+        .partner-sites li a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+            transition: color 0.3s ease;
+        }
+
+        .partner-sites li a:hover {
+            color: #e53935;
+            /* Change color on hover */
+        }
+
+        /* CSS for Keywords */
+        .keywords {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .keywords span {
+            margin: 5px;
+            padding: 8px 15px;
+            background-color: #e53935;
+            /* Secondary color */
+            color: white;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+
+        .keywords span a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .keywords span a:hover {
+            text-decoration: underline;
+        }
+
+        .keywords-cloud {
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .keywords-cloud span {
+            margin: 5px;
+            padding: 5px 10px;
+            background-color: #e53935;
+            color: white;
+            border-radius: 20px;
+            font-size: 14px;
+            transition: all 0.3s ease;
+        }
+
+        .keywords-cloud span a {
+            color: white;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .keywords-cloud span:hover {
+            transform: scale(1.1);
+            /* Increase size on hover */
+            background-color: #c62828;
+            /* Darken background color */
+            cursor: pointer;
+        }
+
+        .keywords-cloud span:hover a {
+            text-decoration: underline;
+            /* Underline link on hover */
         }
     </style>
 </head>
@@ -219,23 +287,59 @@
         <h3>3. Stay Cool and Comfortable</h3>
         <p>Place mini fans strategically around your smoking area to ensure a constant flow of cool air. Look for fans
             with adjustable speeds and quiet operation to avoid distractions.</p>
-
         <h3>4. Portable Comfort</h3>
         <p>If you enjoy smoking outdoors or on the go, consider portable mini fans that can be easily carried and used
             anywhere. Rechargeable options are particularly convenient for travel.</p>
 
         <p>By integrating LED lighting and mini fans, you can create a smoking environment that is both stylish and
             comfortable. Visit <a href="https://vitalun.com" target="_blank">vitalun.com</a> to explore our range of
-            products and find the perfect accessories for your setup.</ <p>By integrating LED lighting and mini fans,
-            you can create a smoking environment that is both stylish and
-            comfortable. Visit <a href="https://vitalun.com" target="_blank">vitalun.com</a> to explore our range of
             products and find the perfect accessories for your setup.</p>
 
         <a href="https://vitalun.com" target="_blank" class="button">Shop Now at Vitalun</a>
     </div>
 
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <h3>Enhance Your Smoking Experience Today!</h3>
+            <p>Visit our partner sites for more smoking accessories and innovations:</p>
+            <ul class="partner-sites">
+                <li><a href="https://motilun.com" target="_blank">Motilun</a></li>
+                <li><a href="https://reyelite.com" target="_blank">Reyelite</a></li>
+                <li><a href="https://vitalun.com" target="_blank">Vitalun</a></li>
+                <li><a href="https://envisale.com" target="_blank">Envisale</a></li>
+                <li><a href="https://vitalkota.com" target="_blank">Vitalkota</a></li>
+                <li><a href="https://yeudanangz.com" target="_blank">Yeudanangz</a></li>
+            </ul>
+            <div class="keywords-cloud">
+                <span><a href="https://vitalun.com/search?q=LED+Lighting&options%5Bprefix%5D=last" target="_blank">LED
+                        Lighting</a></span>
+                <span><a href="https://vitalun.com/search?q=Mini+Fans&options%5Bprefix%5D=last" target="_blank">Mini
+                        Fans</a></span>
+                <span><a href="https://vitalun.com/search?q=Smoking+Accessories&options%5Bprefix%5D=last"
+                        target="_blank">Smoking
+                        Accessories</a></span>
+                <span><a href="https://vitalun.com/search?q=Comfortable+Smoking&options%5Bprefix%5D=last"
+                        target="_blank">Comfortable Smoking</a></span>
+                <span><a href="https://vitalun.com/search?q=Portable+Fans&options%5Bprefix%5D=last"
+                        target="_blank">Portable
+                        Fans</a></span>
+                <span><a href="https://vitalun.com/search?q=Ambient+Lighting&options%5Bprefix%5D=last"
+                        target="_blank">Ambient
+                        Lighting</a></span>
+                <span><a href="https://vitalun.com/search?q=Cooling+Solutions&options%5Bprefix%5D=last"
+                        target="_blank">Cooling
+                        Solutions</a></span>
+                <span><a href="https://vitalun.com/search?q=Smoking+Setup&options%5Bprefix%5D=last"
+                        target="_blank">Smoking
+                        Setup</a></span>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- JavaScript for fadeIn animation on page load -->
     <script>
-        // JavaScript for fadeIn animation on page load
         document.addEventListener('DOMContentLoaded', function () {
             document.querySelector('.container').classList.add('fadeIn');
         });
